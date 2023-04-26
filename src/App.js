@@ -7,7 +7,6 @@ function App() {
     <article>
       <ResultsDisplay />
       <SummaryList />
-      {/* Button */}
     </article>
   );
 }
