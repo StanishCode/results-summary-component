@@ -10,3 +10,14 @@ article {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
 }
+
+@media (max-width: 375px) {
+  article {
+    height: 100%;
+    width: 25rem;
+    margin: 0 auto;
+    overflow: visible;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import SummaryItem from "./SummaryItem";
+import Button from "../UI/Button";
 import classes from "./SummaryList.module.css";
 
 const SummaryList = () => {
@@ -44,7 +45,7 @@ const SummaryList = () => {
     <div className={classes["list-container"]}>
       <h2>Summary</h2>
       <ul>{listItems}</ul>
-      <button>Continue</button>
+      <Button className={classes["summary-button"]}>Continue</Button>
     </div>
   );
 };

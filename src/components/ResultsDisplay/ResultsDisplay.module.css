@@ -60,3 +60,9 @@
   font-weight: 500;
   padding: 0 2rem;
 }
+
+@media (max-width: 375px) {
+  .results-container {
+    border-radius: 0 0 18px 18px;
+  }
+}

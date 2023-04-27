@@ -24,12 +24,27 @@ ul {
   flex: 3;
 }
 
-button {
+.summary-button {
   border: none;
   width: 100%;
   padding: 1rem 0;
   font-weight: 700;
   border-radius: 100px;
-  background-color: hsl(224, 30%, 27%);
+  background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
   color: hsl(0, 0%, 100%);
+  transition: 1s;
+}
+
+.summary-button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width: 375px) {
+  .list-container {
+    padding-top: 1.2rem;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
 }
